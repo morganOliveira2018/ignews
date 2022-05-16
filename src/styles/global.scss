@@ -1,0 +1,54 @@
+// para todos os elementos - *
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+
+  --gray-100: #e1e1e6;
+  --gray-300: #a8a8b3;
+  --gray-800: #29292e;
+  --gray-900: #121214;
+
+  --cyan-500: #61dafb;
+  --yellow-500: #eba417;
+}
+
+@media (max-width: 1080px) {
+  // 1080 tamanho de ipad
+  html {
+    font-size: 93.75%; // 16 x 0,9375 = 15px
+  }
+}
+
+@media (max-width: 720px) {
+  // 720 tamanhos mobile
+  html {
+    font-size: 87.5%; // 16 x 0,875 = 14px
+  }
+}
+
+body {
+  background: var(--gray-900);
+  color: var(--white);
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font: 400 1rem "Roboto", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit; // vai assumir a cor do elemento pai que está em envolta dele
+  text-decoration: none;
+}
