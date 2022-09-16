@@ -2,6 +2,7 @@ import Image from 'next/image';
 import logoSvg from '../../../public/images/logo.svg';
 import { SignInButton } from '../SignInButton/SignInButton';
 import styles from './Header.module.scss';
+import { ActiveLink } from '../ActiveLink';
 
 export function Header() {
     return (
@@ -14,9 +15,14 @@ export function Header() {
                     height="31"
                 />
                 <nav>
-                    <a className={styles.active}>Home</a>
-                    <a>Posts</a>
+                    <ActiveLink activeClassName={styles.active} href="/">
+                        <a>Home</a>
+                    </ActiveLink>
+                    <ActiveLink activeClassName={styles.active} href="/posts">
+                        <a>Posts</a>
+                    </ActiveLink>
                 </nav>
+
                 <SignInButton />
             </div>
         </header>

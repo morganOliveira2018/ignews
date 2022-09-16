@@ -54,7 +54,7 @@ export async function getServerSideProps() {
                 year: 'numeric'
             })
         }
-    })
+    });
 
 
     console.log(JSON.stringify(posts, null, 2));
