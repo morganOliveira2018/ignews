@@ -3,8 +3,8 @@
     "post": {
       "content": {
         "config": {
-          "patternType": "PARAGRAPH",
-          "blocks": 10
+          "patternType": "STORY",
+          "blocks": 1
         }
       }
     }

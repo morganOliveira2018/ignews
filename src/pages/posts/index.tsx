@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import { getPrismicClient } from '../../services/prismic';
 import styles from './styles.module.scss';
 
@@ -23,11 +24,13 @@ export default function Posts({ posts }: PostsProps) {
             <main className={styles.container}>
                 <div className={styles.posts}>
                     {posts.map(post => (
-                        <a key={post.slug} href='#'>
-                            <time>{post.updatedAt}</time>
-                            <strong>{post.title}</strong>
-                            <p>{post.excerpt}</p>
-                        </a>
+                        <Link href={`/posts/${post.slug}`}>
+                            <a key={post.slug}>
+                                <time>{post.updatedAt}</time>
+                                <strong>{post.title}</strong>
+                                <p>{post.excerpt}</p>
+                            </a>
+                        </Link>
                     ))}
                 </div>
             </main>
@@ -56,8 +59,7 @@ export async function getServerSideProps() {
         }
     });
 
-
-    console.log(JSON.stringify(posts, null, 2));
+    // console.log(JSON.stringify(posts, null, 2)); macete no momento de debugar json em cascata
 
     return {
         props: { posts },
