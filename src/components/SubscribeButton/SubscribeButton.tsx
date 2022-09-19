@@ -1,4 +1,5 @@
 import { signIn, useSession } from 'next-auth/react';
+import { useRouter } from 'next/router';
 import { api } from '../../services/api';
 import { getStripeJs } from '../../services/stripe.js';
 import styles from './SubscribeButton.module.scss';
@@ -9,10 +10,17 @@ interface SubscribeButtonProps {
 
 export function SubscribeButton({ priceId }: SubscribeButtonProps) {
     const { data: session } = useSession();
+    const router = useRouter();
 
     async function handleSubscribe() {
         if (!session) {
-            signIn('github')
+            signIn('github');
+            return;
+        }
+
+        // se já tiver a conta ativa, quando clicar no botão de subscription now, então redireciona para page /posts
+        if(session.activeSubscription){
+            router.push('/posts');
             return;
         }
 
