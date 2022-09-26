@@ -159,8 +159,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <br />
  <sub><b>Morgana Ribeiro</b>
 
-[![Linkedin Badge](https://img.shields.io/badge/-Morgana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/morgana-ribeiro-dev/)](https://www.linkedin.com/in/morgana-ribeiro-dev)
-[![Gmail Badge](https://img.shields.io/badge/-morgana.ifce.2019@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:morgana.ifce.2019@gmail.com)](mailto:morgana.ifce.2019@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Morgana%20Ribeiro-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/morgana-ribeiro-dev/)](https://www.linkedin.com/in/morgana-ribeiro-dev/) 
+[![Instagram Badge](https://img.shields.io/badge/-morgana_ribeir0-violet?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/morg.dev/)](https://www.instagram.com/morg.dev/) 
+[![Gmail Badge](https://img.shields.io/badge/-morgana.ifce.2019@gmail.com-6633cc?style=flat-square&logo=Gmail&logoColor=white&link=mailto:morgana.ifce.2019@gmail.com)](mailto:morgana.ifce.2019@gmail.com)
 
 ---
 
