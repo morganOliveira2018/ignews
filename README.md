@@ -49,7 +49,6 @@ O layout da aplicação está disponível no Figma:
 </a>
 
 ### Mobile
-
 ---
 
 ## 🚀 Como executar o projeto
@@ -89,57 +88,21 @@ $ yarn dev
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Website** ([React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/))
-
-- **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
-- **[React Icons](https://react-icons.github.io/react-icons/)**
+#### **Website** 
+- **[NextJS](https://nextjs.org/)** 
+- **[TypeScript](https://www.typescriptlang.org/)**
+- **[Prismic CMS](https://prismic.io/)**
+- **[Stripe](https://stripe.com/br)**
+- **[Fauna](https://fauna.com/)**
+- **[Next.Auth](https://next-auth.js.org/)**
 - **[Axios](https://github.com/axios/axios)**
-- **[Leaflet](https://react-leaflet.js.org/en/)**
-- **[React Leaflet](https://react-leaflet.js.org/)**
-- **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
 
-> Veja o arquivo [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/web/package.json)
 
-#### [](https://github.com/tgmarinho/Ecoleta#server-nodejs--typescript)**Server** ([NodeJS](https://nodejs.org/en/) + [TypeScript](https://www.typescriptlang.org/))
-
-- **[Express](https://expressjs.com/)**
-- **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
-- **[KnexJS](http://knexjs.org/)**
-- **[SQLite](https://github.com/mapbox/node-sqlite3)**
-- **[ts-node](https://github.com/TypeStrong/ts-node)**
-- **[dotENV](https://github.com/motdotla/dotenv)**
-- **[Multer](https://github.com/expressjs/multer)**
-- **[Celebrate](https://github.com/arb/celebrate)**
-- **[Joi](https://github.com/hapijs/joi)**
-
-> Veja o arquivo [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/server/package.json)
-
-#### [](https://github.com/tgmarinho/Ecoleta#mobile-react-native--typescript)**Mobile** ([React Native](http://www.reactnative.com/) + [TypeScript](https://www.typescriptlang.org/))
-
-- **[Expo](https://expo.io/)**
-- **[Expo Google Fonts](https://github.com/expo/google-fonts)**
-- **[React Navigation](https://reactnavigation.org/)**
-- **[React Native Maps](https://github.com/react-native-community/react-native-maps)**
-- **[Expo Constants](https://docs.expo.io/versions/latest/sdk/constants/)**
-- **[React Native SVG](https://github.com/react-native-community/react-native-svg)**
-- **[Axios](https://github.com/axios/axios)**
-- **[Expo Location](https://docs.expo.io/versions/latest/sdk/location/)**
-- **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
-
-> Veja o arquivo [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/mobile/package.json)
-
-#### [](https://github.com/tgmarinho/Ecoleta#utilit%C3%A1rios)**Utilitários**
-
-- Protótipo: **[Figma](https://www.figma.com/)** → **[Protótipo (Ecoleta)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta)**
-- API: **[IBGE API](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)** → **[API de UFs](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)**, **[API de Municípios](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet)**
-- Maps: **[Leaflet](https://react-leaflet.js.org/en/)**
-- Editor: **[Visual Studio Code](https://code.visualstudio.com/)** → Extensions: **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
+**Utilitários**
+- Protótipo: **[Figma](https://www.figma.com/)** → **[Protótipo (Ignews)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta)**
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
 - Markdown: **[StackEdit](https://stackedit.io/)**, **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
 - Commit Conventional: **[Commitlint](https://github.com/conventional-changelog/commitlint)**
-- Teste de API: **[Insomnia](https://insomnia.rest/)**
-- Ícones: **[Feather Icons](https://feathericons.com/)**, **[Font Awesome](https://fontawesome.com/)**
-- Fontes: **[Ubuntu](https://fonts.google.com/specimen/Ubuntu)**, **[Roboto](https://fonts.google.com/specimen/Roboto)**
-
 ---
 
 ## 💪 Como contribuir para o projeto
@@ -159,9 +122,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <br />
  <sub><b>Morgana Ribeiro</b>
 
-[![Linkedin Badge](https://img.shields.io/badge/-Morgana%20Ribeiro-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/morgana-ribeiro-dev/)](https://www.linkedin.com/in/morgana-ribeiro-dev/) 
-[![Instagram Badge](https://img.shields.io/badge/-morgana_ribeir0-violet?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/morg.dev/)](https://www.instagram.com/morg.dev/) 
-[![Gmail Badge](https://img.shields.io/badge/-morgana.ifce.2019@gmail.com-6633cc?style=flat-square&logo=Gmail&logoColor=white&link=mailto:morgana.ifce.2019@gmail.com)](mailto:morgana.ifce.2019@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Morgana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/morgana-ribeiro-dev/)](https://www.linkedin.com/in/morgana-ribeiro-dev)
+[![Gmail Badge](https://img.shields.io/badge/-morgana.ifce.2019@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:morgana.ifce.2019@gmail.com)](mailto:morgana.ifce.2019@gmail.com)
 
 ---
 
