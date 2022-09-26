@@ -2,7 +2,7 @@ import { RichText } from "prismic-dom";
 import { getPrismicClient } from "../../../services/prismic";
 import Head from 'next/head';
 import styles from '../post.module.scss';
-import { GetStaticProps } from "next";
+import { GetStaticPaths, GetStaticProps } from "next";
 import Link from "next/dist/client/link";
 import { useSession } from "next-auth/react";
 import { useEffect } from "react";
@@ -56,10 +56,10 @@ export default function PostPreview({ post }: PostPreviewProps) {
     );
 }
 
-export const getStaticPaths = () => {
+export const getStaticPaths: GetStaticPaths = async () => {
     return {
         paths: [],
-        fallback: 'blocking'
+        fallback: 'blocking' // true, false e 'blocking'
     }
 }
 
@@ -84,6 +84,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     };
 
     return {
-        props: { post }
+        props: { post },
+        redirect: 60 * 30, // 30 minutos - propriedade que diz que em quanto em quanto tempo quero que esse post seja renovado/atualizado conforme o acesso dos usuários
     }
 }
